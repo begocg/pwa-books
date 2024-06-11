@@ -1,0 +1,52 @@
+.container {
+    margin: 20px;
+  }
+  
+  .view-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  mat-card {
+    width: 200px;
+  }
+
+  .mat-mdc-card-title {
+    margin: 5%;
+  }
+
+  .mat-mdc-card {
+    background-color: antiquewhite;
+  }
+
+  .mat-mdc-progress-spinner {
+    --mdc-circular-progress-active-indicator-color: antiquewhite;
+}
+  
+  table {
+    width: 100%;
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+  
+  .clickable:hover {
+    background-color: #f1f1f1;
+  }
+  
