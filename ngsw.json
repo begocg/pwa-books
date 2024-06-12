@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1718220770611,
+  "index": "/pwa-books/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-books/favicon.ico",
+        "/pwa-books/index.html",
+        "/pwa-books/main.711d336f7fcc5541.js",
+        "/pwa-books/manifest.webmanifest",
+        "/pwa-books/polyfills.ec90f54ea5d9c4e2.js",
+        "/pwa-books/runtime.d130aa3bed4f61f7.js",
+        "/pwa-books/styles.94ab549d9c2754b0.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.0-beta1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-books/assets/icons/icon-128x128.png",
+        "/pwa-books/assets/icons/icon-144x144.png",
+        "/pwa-books/assets/icons/icon-152x152.png",
+        "/pwa-books/assets/icons/icon-192x192.png",
+        "/pwa-books/assets/icons/icon-384x384.png",
+        "/pwa-books/assets/icons/icon-512x512.png",
+        "/pwa-books/assets/icons/icon-72x72.png",
+        "/pwa-books/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "books-api",
+      "patterns": [
+        "https:\\/\\/openlibrary\\.org\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pwa-books/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pwa-books/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pwa-books/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pwa-books/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pwa-books/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pwa-books/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pwa-books/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pwa-books/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pwa-books/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pwa-books/index.html": "6000604b1d9cdc38b704053f6c00b7d3d58a12f9",
+    "/pwa-books/main.711d336f7fcc5541.js": "987730fa5750646a8aa225c48e76eabde1421c97",
+    "/pwa-books/manifest.webmanifest": "388be565313effb940f8ca965d7357f6a219257b",
+    "/pwa-books/polyfills.ec90f54ea5d9c4e2.js": "d7c3667689b2fcdf562f7509a21bae0331371c91",
+    "/pwa-books/runtime.d130aa3bed4f61f7.js": "bfd854a94fe6c1603a9d022b1cba6a82c9fa432a",
+    "/pwa-books/styles.94ab549d9c2754b0.css": "f9f169661de1ebe26b474fd6fa82145ae60ae8d3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
